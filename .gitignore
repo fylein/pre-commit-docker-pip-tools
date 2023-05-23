@@ -1,4 +1,4 @@
-.cache
+.pip-compile-cache
 .idea
 requirements.in
 requirements.txt
