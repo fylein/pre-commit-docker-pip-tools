@@ -1,7 +1,7 @@
 - id: pip-compile
   name: pip-compile
   description: Automatically compile requirements.
-  entry: pip-compile --cache-dir /src/.cache
+  entry: pip-compile --cache-dir /src/.pip-compile-cache
   language: docker
   files: ^requirements\.(in|txt)$
   pass_filenames: false
