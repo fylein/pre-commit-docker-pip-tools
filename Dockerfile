@@ -7,4 +7,4 @@ RUN apt-get update && apt-get install -y gcc libpq-dev
 RUN pip install pip --upgrade
 
 # install pip tools
-RUN pip install pip-tools==6.14.0
+RUN pip install pip-tools
